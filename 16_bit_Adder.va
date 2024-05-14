@@ -1,3 +1,9 @@
+// 3 new test cases added
+
+// 1.Maximal Case: Both A and B are set to their maximal values (0xFFFF) with a carry-in (Cin) to check the overflow handling.
+// 2.Alternate Bits Set: Alternate bits set in A and the inverse pattern in B with and without carry-in to test the adder's bit-wise operations.
+// 3.Incremental Case: A continuously increases, while B is set to a small constant value, testing the adder's ability to handle small incremental changes over a range.
+
 // Includes required files for Cadence Virtuoso
 `include "constants.vams"
 `include "disciplines.vams"
